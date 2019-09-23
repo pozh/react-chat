@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/variables";
+@import "../../assets/styles/contants";
+
+.chat {
+  position: relative;
+  min-height: 100vh;
+
+  &__side {
+    background: rgba($white, .85);
+    min-height: 100vh;
+    box-shadow: $shadow;
+    display: none;
+
+    &.visible {
+      display: block;
+    }
+
+    @include media-breakpoint-only(xs) {
+      padding-top: 3rem;
+    }
+
+    @include media-breakpoint-up(sm) {
+      display: block;
+    }
+  }
+}
+
+.btn-side {
+  position: fixed;
+  z-index: 4000;
+  top: 15px;
+  left: -3px;
+}

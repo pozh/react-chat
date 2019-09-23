@@ -1,0 +1,14 @@
+@import "../../assets/styles/contants";
+
+.signin {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    width: 300px;
+    max-width: 90%;
+    box-shadow: $shadow;
+  }
+}

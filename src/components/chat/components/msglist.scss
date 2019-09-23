@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/variables";
+@import "../../../assets/styles/contants";
+
+.list {
+  height: calc(100vh - 115px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}

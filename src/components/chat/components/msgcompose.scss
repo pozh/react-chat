@@ -1,0 +1,15 @@
+@import "../../../assets/styles/contants";
+
+.compose {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 100%;
+  max-width: calc(100% - 30px);
+
+  &__form {
+    background: rgba($white, .25);
+    border-radius: $radius;
+
+  }
+}

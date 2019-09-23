@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/variables";
+@import "../../../assets/styles/contants";
+
+.msg {
+  background: rgba($white, .85);
+  display: block;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: $radius;
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+
+  &-mine {
+    margin-left: auto;
+    margin-right: 0;
+    background: #94da5a;
+  }
+}
